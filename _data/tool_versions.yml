@@ -1,6 +1,6 @@
 # Auto-updated by .github/workflows/update-tool-versions.yml — do not edit by hand.
 # Latest releases of the tracked open-source AI-QA tools.
-updated: "2026-08-17"
+updated: "2026-08-24"
 tools:
   playwright:
     repo: "microsoft/playwright"
@@ -13,16 +13,16 @@ tools:
     version: "0.122.0"
   deepeval:
     repo: "confident-ai/deepeval"
-    version: "v4.1.7"
+    version: "python-v4.1.9"
   ragas:
     repo: "explodinggradients/ragas"
     version: "v0.4.3"
   langfuse:
     repo: "langfuse/langfuse"
-    version: "v4.11.0"
+    version: "v4.16.0"
   phoenix:
     repo: "Arize-ai/phoenix"
-    version: "arize-phoenix-v20.2.1"
+    version: "arize-phoenix-client-v3.3.0"
   openai-evals:
     repo: "openai/evals"
     version: "v0.1.1"
