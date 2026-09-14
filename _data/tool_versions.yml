@@ -1,6 +1,6 @@
 # Auto-updated by .github/workflows/update-tool-versions.yml — do not edit by hand.
 # Latest releases of the tracked open-source AI-QA tools.
-updated: "2026-09-07"
+updated: "2026-09-14"
 tools:
   playwright:
     repo: "microsoft/playwright"
@@ -10,7 +10,7 @@ tools:
     version: "v0.0.80"
   promptfoo:
     repo: "promptfoo/promptfoo"
-    version: "code-scan-action-0.2.0"
+    version: "0.123.0"
   deepeval:
     repo: "confident-ai/deepeval"
     version: "python-v4.2.0"
@@ -19,10 +19,10 @@ tools:
     version: "v0.4.3"
   langfuse:
     repo: "langfuse/langfuse"
-    version: "v4.30.0"
+    version: "v4.35.0"
   phoenix:
     repo: "Arize-ai/phoenix"
-    version: "arize-phoenix-v20.8.0"
+    version: "arize-phoenix-v20.11.0"
   openai-evals:
     repo: "openai/evals"
     version: "v0.1.1"
