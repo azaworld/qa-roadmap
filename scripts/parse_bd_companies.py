@@ -15,6 +15,31 @@ URL_FIXES = {
     'https://www.themexpert.com': 'https://themexpert.com',
 }
 
+# Upstream URLs that did not respond (no connection, 404 or 5xx) and have no verified replacement.
+# They are dropped so the page shows "—" instead of a broken link. Remove an entry to restore it.
+DEAD_URLS = {
+    'http://csinfotechbd.com',
+    'http://www.spftl.com',
+    'https://algorixit.com',
+    'https://aveniripltd.com',
+    'https://danpite.tech',
+    'https://mononsoft.org',
+    'https://sebpo.com',
+    'https://telenorhealth.com',
+    'https://www.medinatech.co',
+    'https://www.remotionit.com',
+    'https://www.techflixbd.com',
+    'https://www.techcarebd.com',
+    'https://www.digigate360.com',
+    'https://www.grit0.com',
+    'https://www.paperfly.com.bd',
+    'https://www.progoti.com',
+    'https://www.widespace.com',
+    'https://chaldal.tech',
+    'https://alchemy-bd.com',
+    'https://anchorblock.ai',
+}
+
 src, out = sys.argv[1], sys.argv[2]
 lines = open(src, encoding='utf-8').read().split('\n')
 in_tbl = False
@@ -31,6 +56,8 @@ def flush(cells):
         # drop trailing slashes (upstream has e.g. "medinatech.co//") and apply known fixes
         url = url.rstrip('/')
         url = URL_FIXES.get(url, url)
+        if url in DEAD_URLS:
+            url = ''
         # normalise team size to a sortable number (max integer found; e.g. "100+"->100, "15-20"->20)
         nums = [int(n) for n in re.findall(r'\d+', eng)]
         engnum = max(nums) if nums else 0

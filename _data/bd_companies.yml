@@ -37,13 +37,13 @@ companies:
   - name: "Alchemy Software Limited"
     loc: "335, M.M Ali Road, Yahya Tower (6th Floor) Lalkhan Bazar, Chittagong, Bangladesh."
     tech: "Java, Oracle, PHP, WordPress, Laravel, .Net, Android"
-    url: "https://alchemy-bd.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "AlgorixIT LTD."
     loc: "7/A, Dhanmondi, Dhaka-1209, Bangladesh"
     tech: "Android, iOS, Flutter, Web, iOT"
-    url: "https://algorixit.com"
+    url: ""
     eng: "12"
     engnum: 12
   - name: "All Generation tech"
@@ -55,7 +55,7 @@ companies:
   - name: "Anchorblock Technology"
     loc: "Block C House, 57 Rd Number 4, Dhaka 1213"
     tech: "JavaScript, Python, ReactJS, NodeJS, NestJS, Django, Hyperledger Fabric, Flutter, Android, Solidity, Smart Contact, Machine Learning, AWS"
-    url: "https://anchorblock.ai"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "Apex DMIT"
@@ -133,7 +133,7 @@ companies:
   - name: "Avenir IP Limited"
     loc: "Concord Honeydew, Office Suite 201, House-18, Road-101, Gulshan-2, Dhaka 1212"
     tech: "PHP, nodeJS, ReactJS, Android, Swift"
-    url: "https://aveniripltd.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "Bangladesh Software Solution"
@@ -229,7 +229,7 @@ companies:
   - name: "Chaldal Engineering"
     loc: "House 6, Road 9, Block C, Banani"
     tech: ".NET, F#, C#, SQL Server, TypeScript, JavaScript, Xamarin, Android, React, React Native, Microsoft Orleans"
-    url: "https://chaldal.tech"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "Chumbok IT"
@@ -283,7 +283,7 @@ companies:
   - name: "Computer Source InfoTech"
     loc: "49 Kawran Bazar Rd, Dhaka 1215"
     tech: "PHP, Oracle, Java"
-    url: "http://csinfotechbd.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "Craftsmen (EU)"
@@ -301,7 +301,7 @@ companies:
   - name: "Danpite.Tech"
     loc: "1008/R, Lift-9, Sha Ali Plaza, Mirpur-10, Dhaka-1216"
     tech: "PHP, Laravel, Flutter, React"
-    url: "https://danpite.tech"
+    url: ""
     eng: "27"
     engnum: 27
   - name: "Daraz Bangladesh"
@@ -517,7 +517,7 @@ companies:
   - name: "Grit Technologies Limited"
     loc: "Level 4, Vision 2021 Tower, 49 Kawran Bazar, Dhaka 1215"
     tech: "Javascript, Python, Go, PHP, PostgreSQL, MongoDB, React Native, Figma, Cypress, Docker, AWS, Microservices, IoT, LLM, XR"
-    url: "https://www.grit0.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "HawarIT"
@@ -787,7 +787,7 @@ companies:
   - name: "Medina Tech Ltd."
     loc: "_Bangladesh Office:_ 7th Floor, Wasi Tower, ECB Chattar, Matikata Road, Dhaka Cantonment, Dhaka-1206 +"
     tech: "Python, Node.js, Django, PHP, React, Next.js, Vue, AI, Machine Learning, Unity, AR, Android, IOS, React Native, AWS"
-    url: "https://www.medinatech.co"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "Mediusware Ltd."
@@ -835,7 +835,7 @@ companies:
   - name: "MononSoft Ltd. (A Concern of JMI Group)"
     loc: "TMC Building (6th Floor),52 New Eskaton Road, Dhaka 1000."
     tech: "PHP, Laravel, Oracle, RESTful APIs, VueJS"
-    url: "https://mononsoft.org"
+    url: ""
     eng: "30"
     engnum: 30
   - name: "MonstarLab Bangladesh"
@@ -985,7 +985,7 @@ companies:
   - name: "Paperfly Ltd"
     loc: "SKS Tower, Level 5, Mohakhali, Dhaka-1212."
     tech: "React, Vue, PHP, Laravel."
-    url: "https://www.paperfly.com.bd"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "Pathao Ltd"
@@ -1021,7 +1021,7 @@ companies:
   - name: "Progoti Systems Limited"
     loc: "51/B, Borak Mehnur, Kemal Ataturk Ave, Dhaka, Bangladesh"
     tech: "Android, Spring-boot, Django, Docker, Python, PostgreSQL, MySQL"
-    url: "https://www.progoti.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "ReliSource (USA)"
@@ -1033,7 +1033,7 @@ companies:
   - name: "Remotion IT"
     loc: "Rahman Amena, House-49(4th Floor), Road-13, Block-D, Banani, Dhaka, Bangladesh-1213"
     tech: "Web design, SEO, Social Media marketing, SMS marketing, Branding Design"
-    url: "https://www.remotionit.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "Renessa Info Systems Ltd."
@@ -1093,7 +1093,7 @@ companies:
   - name: "ServicEngine Ltd."
     loc: "House 8, Abbas Garden, DOHS Mohakhali, Dhaka-1206"
     tech: "Groovy, Java, SQL, Spring"
-    url: "https://sebpo.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "ShareTrip"
@@ -1177,7 +1177,7 @@ companies:
   - name: "Sonali Polaris FT Limited"
     loc: "Abedin Tower (7th Floor), 35 Kamal Ataturk Avenue, Banani C/A I Dhaka – 1213, 35 Kemal Ataturk Ave, Dhaka"
     tech: "Java, Oracle"
-    url: "http://www.spftl.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "SouthTech"
@@ -1249,13 +1249,13 @@ companies:
   - name: "TechCare"
     loc: "450/A, Road 6A, Avenue 6, Mirpur DOHS, Dhaka 1216, Bangladesh"
     tech: "Android, Java, Node"
-    url: "https://www.techcarebd.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "TechFlix"
     loc: "6100, Rajshahi"
     tech: "Web development, hosting, google ads, ERP solutions"
-    url: "https://www.techflixbd.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "Technext Limited"
@@ -1273,7 +1273,7 @@ companies:
   - name: "TechnoNext"
     loc: "House-97, Sohrawardi Avenue, Baridhara Diplomatic Zone, Dhaka-1212"
     tech: "JavaScript, React, Golang, DevOps, Flutter"
-    url: "https://www.digigate360.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "TechnoVista Limited"
@@ -1297,7 +1297,7 @@ companies:
   - name: "Telenor Health A S"
     loc: "House No. 257, Block- B, Road 1, Bashundhara R/A, Dhaka-1229"
     tech: "PHP(Laravel, Drupal), Nodejs(Express, Socket.io), JavaScript(React), Python(Django), iOS, Android"
-    url: "https://telenorhealth.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "Themeperch Limited"
@@ -1387,7 +1387,7 @@ companies:
   - name: "Widespace (Sweden)"
     loc: ""
     tech: "Java"
-    url: "https://www.widespace.com"
+    url: ""
     eng: "Please update"
     engnum: 0
   - name: "Workspace InfoTech Limited"
