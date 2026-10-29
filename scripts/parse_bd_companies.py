@@ -3,6 +3,17 @@
 Usage: python3 scripts/parse_bd_companies.py <input.adoc> <output.yml>"""
 import sys, re, datetime
 
+# Upstream URLs that are wrong or unreachable, mapped to a verified working replacement.
+# Keys are the normalised upstream URL (trailing slashes removed). Keep this list short;
+# add an entry only after confirming the replacement responds.
+URL_FIXES = {
+    'http://www.ibcs-primax.com/ibcsonweb': 'https://ibcs-primax.com',
+    'https://www.jatri.co': 'https://jatri.co',
+    'https://trucklagbe.com': 'https://www.trucklagbe.com',
+    'https://www.mazegeek.com': 'http://mazegeek.com',
+    'https://streamstech.com.bd': 'http://streamstech.com.bd',
+}
+
 src, out = sys.argv[1], sys.argv[2]
 lines = open(src, encoding='utf-8').read().split('\n')
 in_tbl = False
@@ -16,6 +27,9 @@ def flush(cells):
             continue
         m = re.search(r'(https?://[^\[\]\s]+)', web)
         url = m.group(1) if m else ''
+        # drop trailing slashes (upstream has e.g. "medinatech.co//") and apply known fixes
+        url = url.rstrip('/')
+        url = URL_FIXES.get(url, url)
         # normalise team size to a sortable number (max integer found; e.g. "100+"->100, "15-20"->20)
         nums = [int(n) for n in re.findall(r'\d+', eng)]
         engnum = max(nums) if nums else 0
