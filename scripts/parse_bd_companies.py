@@ -12,6 +12,7 @@ URL_FIXES = {
     'https://trucklagbe.com': 'https://www.trucklagbe.com',
     'https://www.mazegeek.com': 'http://mazegeek.com',
     'https://streamstech.com.bd': 'http://streamstech.com.bd',
+    'https://www.themexpert.com': 'https://themexpert.com',
 }
 
 src, out = sys.argv[1], sys.argv[2]
