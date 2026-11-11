@@ -55,6 +55,7 @@ Write tests in plain English or from recordings; AI builds and maintains them. G
 | [BrowserStack Low Code](https://www.browserstack.com/low-code-automation) | 🥈 | NL authoring + self-healing on real devices | Low-code + device cloud |
 | [Shiplight](https://www.shiplight.ai/) | 🥈 | AI-coding-agent workflow; YAML tests in git, heals as reviewable PRs; on Playwright | Intent re-derivation + cached locators |
 | [Rainforest QA](https://www.rainforestqa.com/) | 🥉 | No-code with AI test generation | Visual authoring |
+| [agent-qa](https://vostride.com) | — | Web/mobile QA via CLI/MCP with persistent memidex memory and validated self-improvement | Plain-English YAML; step/screenshot evidence. FSL-1.1-ALv2; free permitted local use, separate model/infra costs. |
 
 ## 4. 🩹 Self-healing (reduce locator maintenance)
 
